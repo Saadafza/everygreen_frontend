@@ -8,7 +8,7 @@ const UserContext = useContext(AuthContext);
 
     useEffect(() => {
         if (UserContext.user?.role === "Admin") {
-            navigator("/login");
+            navigator("/management");
         }
     }, []);
 
