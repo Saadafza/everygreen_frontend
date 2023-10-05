@@ -1,0 +1,29 @@
+.ever {
+  float: left;
+  color: white;
+}
+
+.admin {
+  float: right;
+  color: white;
+
+}
+
+.main-container { /* Fix the typo here */
+  background-color: rgb(62, 62, 62);
+  width: 100%;
+  height: 80px;
+  padding: 10px 20px;
+
+}
+.create-account{
+  background-color: rgb(111, 111, 111);
+  height: 70vh;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 30px;
+}
+.create-account button{
+  margin-left: 20px;
+}
