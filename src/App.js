@@ -1,14 +1,18 @@
-import { Route, Routes } from 'react-router-dom';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import Mangement from './AdminComponents/Mangement';
+import Management from './AdminComponents/Management';
+import AdminRoute from './AdminRoute'; 
+
 function App() {
   return (
     <div className="App">
-     <Routes>
-      <Route path='/management' element={<Mangement/>}/>
-      <Route path='/' element={<Mangement/>}/>
-
-     </Routes>
+      <Routes>
+       
+        <AdminRoute path="/management" element={<Management />} />
+       
+        <Route path="/" element={<SomePublicComponent />} />
+      </Routes>
     </div>
   );
 }
