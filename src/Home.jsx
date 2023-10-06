@@ -1,8 +1,8 @@
 function Home(){
     return(
         <>
-        hello from home
-        </>
+<p>hello here we are</p>    
+    </>
     )
 }
 export default Home;
